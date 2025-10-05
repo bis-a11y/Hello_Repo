@@ -45,7 +45,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: DPRJOECT1
+          file: Dockerfile
           push: true
           tags: ghcr.io/${{ github.actor }}/my-dockerimage-web:${{ env.IMAGE_TAG }}
 

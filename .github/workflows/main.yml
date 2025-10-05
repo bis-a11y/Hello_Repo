@@ -47,7 +47,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ghcr.io/ bis-a11y/Hello_Repo/web:latest
+          tags: ghcr.io/bis-a11y/Hello_Repo/web:latest
 
   deploy:
     name: Deploy to main
